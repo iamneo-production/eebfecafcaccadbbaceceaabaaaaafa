@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ApiController {
     
-    @GetMapping("/")
+    @GetMapping("show")
     public String getName(){
         String name = "IamNeo";
         return "Welcome "+name+"!";
